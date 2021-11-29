@@ -1,0 +1,19 @@
+.card {
+  text-align: center;
+  width: 24%;
+  border: thin solid rgba(0,0,0,0.1);
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  padding: 20px 30px;
+}
+
+.card p {
+  color: rgba(110, 110, 110);
+}
+
+
+
+.card img {
+  height: 140px;
+  width: 100%;
+}

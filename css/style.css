@@ -1,0 +1,95 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Rakkas&display=swap');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Components */
+@import url(components/container.css);
+@import url(components/hero.css);
+@import url(components/buttons.css);
+@import url(components/card.css);
+
+/* Utilities */
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Rakkas', cursive;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+  color: #241676;
+  position: relative;
+  margin-top: 0;
+}
+
+h2:before {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 15px;
+  left: -40px;
+  background: #FFD100;
+  z-index: -1;
+  top: 10px;
+}
+
+h3 {
+  color: #241676;
+  font-size: 1.3em;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.4s;
+}
+
+
+/* Custom design below! */
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero + section {
+  padding: 55px ;
+}
+
+footer {
+  padding: 30px 0;
+  background: #25232c;
+  color: #fff;
+  text-align: center;
+}
+footer ul {
+  padding: 0;
+}
+
+footer li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 20px;
+}
+
+footer li a {
+  color: #FFD100;
+  font-size: 1.8em;
+}
+
+footer li a:hover {
+  color: #fff;
+  font-size: 2em;
+}
